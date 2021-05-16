@@ -3,7 +3,6 @@ titles
  title_id VARCHAR   PK
  title VARCHAR  
 
- 
 employees 
 ----
  emp_no INT   PK    
@@ -19,12 +18,10 @@ departments
  dept_no VARCHAR   PK
  dept_name VARCHAR    
 
-
 dept_manager    
 -----
 dept_no VARCHAR PK FK >- departments.dept_no
 emp_no INT PK FK >- employees.emp_no
-
 
 dept_emp 
 -----
